@@ -1,0 +1,2 @@
+rootProject.name='Clay pot Vedic app thingy'
+include ':app'
