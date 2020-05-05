@@ -1,3 +1,6 @@
+//Copyright [April 2020 - present] Erik Douglas Ward (Eeshvar Das)
+//Erik Douglas Ward is a resident of Las Vegas, NV
+
 package com.example.claypotvedicappthingy;
 
 import androidx.appcompat.app.AppCompatActivity;
