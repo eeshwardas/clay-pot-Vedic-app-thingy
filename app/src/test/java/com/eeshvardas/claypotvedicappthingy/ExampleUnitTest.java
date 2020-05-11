@@ -1,4 +1,7 @@
-package com.example.claypotvedicappthingy;
+//Copyright [April 2020 - present] Erik Douglas Ward (Eeshvar Das)
+//Erik Douglas Ward (Eeshvar Das) is a resident of Las Vegas, NV
+
+package com.eeshvardas.claypotvedicappthingy;
 
 import org.junit.Test;
 
@@ -14,4 +17,5 @@ public class ExampleUnitTest {
     public void addition_isCorrect() {
         assertEquals(4, 2 + 2);
     }
+
 }

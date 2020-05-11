@@ -1,4 +1,7 @@
-package com.example.claypotvedicappthingy;
+//Copyright [April 2020 - present] Erik Douglas Ward (Eeshvar Das)
+//Erik Douglas Ward (Eeshvar Das) is a resident of Las Vegas, NV
+
+package com.eeshvardas.claypotvedicappthingy;
 
 import android.content.Context;
 
@@ -22,6 +25,6 @@ public class ExampleInstrumentedTest {
         // Context of the app under test.
         Context appContext = InstrumentationRegistry.getInstrumentation().getTargetContext();
 
-        assertEquals("com.example.claypotvedicappthingy", appContext.getPackageName());
+        assertEquals("com.eeshvardas.claypotvedicappthingy", appContext.getPackageName());
     }
 }
