@@ -3,6 +3,8 @@
 
 package com.eeshvardas.claypotvedicappthingy;
 
+import com.eeshvardas.offlinedatastorage.NativeAndroidR;
+
 import org.junit.Test;
 
 import static org.junit.Assert.*;
@@ -15,7 +17,9 @@ import static org.junit.Assert.*;
 public class ExampleUnitTest {
     @Test
     public void addition_isCorrect() {
-        assertEquals(4, 2 + 2);
+        assertEquals(4, 1 + 3);
     }
 
+    @Test
+    public void initializeOfflineDataStorage_isInitializedCorrectly() { assertEquals(true, new NativeAndroidR() }
 }
