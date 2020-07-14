@@ -1,9 +1,9 @@
-//Copyright [April 2020 - present] Erik Douglas Ward (Eeshvar Das)
+//©Erik Douglas Ward (Eeshvar Das) [April 2020 - present]
 //Erik Douglas Ward (Eeshvar Das) is a resident of Las Vegas, NV
 
 package com.eeshvardas.claypotvedicappthingy;
 
-import com.eeshvardas.offlinedatastorage.NativeAndroidR;
+import com.eeshvardas.offlinedatastorage.Initialize;
 
 import org.junit.Test;
 
@@ -21,5 +21,5 @@ public class ExampleUnitTest {
     }
 
     @Test
-    public void initializeOfflineDataStorage_isInitializedCorrectly() { assertEquals(true, new NativeAndroidR() }
+    public void initializeOfflineDataStorage_isInitializedCorrectly() { assertNotNull( new Initialize() ); }
 }

@@ -1,3 +1,7 @@
+<!--©Erik Douglas Ward (Eeshvar Das) [April 2020 - present]-->
+<!--Erik Douglas Ward (Eeshvar Das) is a resident of Las Vegas, NV-->
 <resources>
     <string name="app_name">Clay pot Vedic app thingy</string>
+    <string name="initialization_needs_testing">needs testing implemented</string>
+    <string name="move_code_to_new_unique_class">move this code to new unique class</string>
 </resources>

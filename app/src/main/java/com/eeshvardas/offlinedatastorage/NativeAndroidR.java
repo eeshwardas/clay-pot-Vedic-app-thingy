@@ -1,4 +1,4 @@
-//Copyright [April 2020 - present] Erik Douglas Ward (Eeshvar Das)
+//©Erik Douglas Ward (Eeshvar Das) [April 2020 - present]
 //Erik Douglas Ward (Eeshvar Das) is a resident of Las Vegas, NV
 
 package com.eeshvardas.offlinedatastorage;
@@ -11,9 +11,9 @@ import java.util.concurrent.atomic.AtomicStampedReference;
 final class NativeAndroidR extends OfflineDataStorageBase {
     private void initialize() throws ExceptionInInitializerError {
         try {
-            throw new ExceptionInInitializerError("needs time zone set to GMT");
-            throw new ExceptionInInitializerError("needs tests run internally for" +
-                    "project initialization test");
+            throw new ExceptionInInitializerError("needs time zone set to GMT and " +
+                    "needs tests implemented");
+            //throw new ExceptionInInitializerError();
         }
         catch(ExceptionInInitializerError e) {
 
@@ -36,7 +36,7 @@ final class NativeAndroidR extends OfflineDataStorageBase {
             throw new ExceptionInInitializerError();
         }
 
-        private java.lang.Float deteriorate() {
+        private Float deteriorate() {
             long newVal = integerValueStored.get();
             Random random = new Random();
             Random randomSeeded = new Random(random.nextLong() + newVal);
